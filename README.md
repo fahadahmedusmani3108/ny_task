@@ -10,13 +10,43 @@ Features
 *   **View Popular Articles**: Browse a list of the most popular articles.
     
 *   **Article Details**: Tap on an article to view its detailed information, including title, abstract, and an external link.
-    
-*   **Reactive UI**: The user interface is updated reactively using the Combine framework.
-    
-*   **Dependency Injection**: The project uses a custom dependency injection (DI) container to manage and provide dependencies like services and repositories.
-    
-*   **Coordinator Pattern**: Navigation between screens is managed by a Coordinator class, which decouples view controllers from navigation logic.
-    
+
+
+
+🏗️ Architecture
+--------
+
+```mermaid
+graph TD
+    A[View] -->|Binds| B[ViewModel]
+    B -->|Uses| C[Repository]
+    C -->|Calls| D[APIClient]
+    B -->|Navigates| E[Coordinator]
+    F[DI Container] -->|Injects| B
+ ```
+
+## Technical Stack
+
+### Core Technologies
+- **UIKit** for UI components
+- **Combine** for reactive programming
+- **Async/Await** (for network service async calls)
+
+
+### Architecture Components
+- **MVVM-C Pattern**:
+  - Model-View-ViewModel with Coordinators
+  - Clean separation of concerns
+  - Testable components
+
+- **Dependency Injection**:
+  - MSDIContainer for managing dependencies
+  - Protocol-oriented design for easy mocking
+
+- **Reactive Programming**:
+  - Combine framework for state management
+  - Data binding between ViewModels and Views
+
 
 Getting Started
 ---------------
