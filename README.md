@@ -1,4 +1,4 @@
-#ny_task
+# NYT_APP
 ========
 
 This project is a mobile application developed in Swift for iOS that displays a list of the most popular articles from the New York Times and allows users to view the 
