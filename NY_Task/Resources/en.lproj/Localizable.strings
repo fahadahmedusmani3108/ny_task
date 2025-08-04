@@ -1,0 +1,17 @@
+//
+//  Localizable.strings
+//  NY_Task
+//
+//  Created by Fahad Ahmed Usmani on 04/08/2025.
+//
+
+"article_list_title" = "NY Times Most Popular";
+"alert" = "Alert";
+"invalid_url" = "Invalid URL constructed";
+"timeout" = "Request timed out";
+"decoding_failed" = "Failed to decode: %@";
+"request_failed" = "Request failed: %@";
+"invalid_response" = "Invalid server response";
+"status_code" = "Server returned status code %d";
+"unexpected_error" = "Unexpected error: %@";
+"index_out_of_bounds" = "Index out of bounds";

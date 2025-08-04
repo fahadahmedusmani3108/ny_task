@@ -1,0 +1,65 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2025 The New York Times Company.  All Rights Reserved.",
+  "num_results": 20,
+  "results": [
+    {
+      "uri": "nyt://article/6adfa125-ab86-5189-b49b-8d15ff174e11",
+      "url": "https://www.nytimes.com/2025/07/28/well/family/mankeeping-definition.html",
+      "id": 100000010258837,
+      "asset_id": 100000010258837,
+      "source": "New York Times",
+      "published_date": "2025-07-28",
+      "updated": "2025-08-01 11:18:53",
+      "section": "Well",
+      "subsection": "Family",
+      "nytdsection": "well",
+      "adx_keywords": "Dating and Relationships;Therapy and Rehabilitation;Women and Girls;Men and Boys;audio-neutral-informative",
+      "column": null,
+      "byline": "By Catherine Pearson",
+      "type": "Article",
+      "title": "Why Women Are Weary",
+      "abstract": "As male social circles shrink, female partners say they have to meet more social and emotional needs.",
+      "des_facet": [
+        "Dating and Relationships",
+        "Therapy and Rehabilitation",
+        "Women and Girls",
+        "Men and Boys",
+        "audio-neutral-informative"
+      ],
+      "org_facet": [],
+      "per_facet": [],
+      "geo_facet": [],
+      "media": [
+        {
+          "type": "image",
+          "subtype": "photo",
+          "caption": "",
+          "copyright": "Ohni Lisle",
+          "approved_for_syndication": 1,
+          "media-metadata": [
+            {
+              "url": "https://static01.nyt.com/images/2025/07/28/well/28Well-Mankeeping/28Well-Mankeeping-thumbStandard.jpg",
+              "format": "Standard Thumbnail",
+              "height": 75,
+              "width": 75
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/07/28/well/28Well-Mankeeping/28Well-Mankeeping-mediumThreeByTwo210.jpg",
+              "format": "mediumThreeByTwo210",
+              "height": 140,
+              "width": 210
+            },
+            {
+              "url": "https://static01.nyt.com/images/2025/07/28/well/28Well-Mankeeping/28Well-Mankeeping-mediumThreeByTwo440.jpg",
+              "format": "mediumThreeByTwo440",
+              "height": 293,
+              "width": 440
+            }
+          ]
+        }
+      ],
+      "eta_id": 0
+    }
+  ]
+}

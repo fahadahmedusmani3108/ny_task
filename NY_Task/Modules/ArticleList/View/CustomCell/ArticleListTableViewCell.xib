@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" accessoryType="disclosureIndicator" indentationWidth="10" rowHeight="97" id="KGk-i7-Jjw" customClass="ArticleListTableViewCell" customModule="NY_Task" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="456" height="97"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="425.66666666666669" height="97"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Irn-Z7-bgc">
+                        <rect key="frame" x="10" y="28.666666666666671" width="40" height="40"/>
+                        <accessibility key="accessibilityConfiguration" identifier="Irn-Z7-bgc"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="ESc-bf-HVs"/>
+                            <constraint firstAttribute="height" constant="40" id="l3t-WY-pKC"/>
+                        </constraints>
+                    </imageView>
+                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="WvV-af-U6s">
+                        <rect key="frame" x="60" y="10" width="355.66666666666669" height="77"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="title" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tMe-q0-apN">
+                                <rect key="frame" x="0.0" y="0.0" width="355.66666666666669" height="51"/>
+                                <accessibility key="accessibilityConfiguration" identifier="tMe-q0-apN"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalCentering" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="e53-5R-EeZ">
+                                <rect key="frame" x="0.0" y="60" width="355.66666666666669" height="17"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="subtitle" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5C8-or-7MI">
+                                        <rect key="frame" x="0.0" y="0.0" width="47.333333333333336" height="17"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="5C8-or-7MI"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="14"/>
+                                        <color key="textColor" systemColor="systemGrayColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="date" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C4S-SN-1ox">
+                                        <rect key="frame" x="330.66666666666669" y="0.0" width="25" height="17"/>
+                                        <accessibility key="accessibilityConfiguration" identifier="C4S-SN-1ox"/>
+                                        <fontDescription key="fontDescription" type="system" weight="light" pointSize="12"/>
+                                        <color key="textColor" systemColor="systemGrayColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Irn-Z7-bgc" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="AKB-AK-hoo"/>
+                    <constraint firstAttribute="bottom" secondItem="WvV-af-U6s" secondAttribute="bottom" constant="10" id="enh-QJ-rL1"/>
+                    <constraint firstItem="WvV-af-U6s" firstAttribute="leading" secondItem="Irn-Z7-bgc" secondAttribute="trailing" constant="10" id="jr0-Ua-Lge"/>
+                    <constraint firstItem="WvV-af-U6s" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="p9j-lx-laZ"/>
+                    <constraint firstItem="Irn-Z7-bgc" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="sXZ-Pm-a9A"/>
+                    <constraint firstAttribute="trailing" secondItem="WvV-af-U6s" secondAttribute="trailing" constant="10" id="v9I-OQ-IeB"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <accessibility key="accessibilityConfiguration" identifier="KGk-i7-Jjw"/>
+            <connections>
+                <outlet property="articleImageView" destination="Irn-Z7-bgc" id="Og2-bb-ZTY"/>
+                <outlet property="dateLabel" destination="C4S-SN-1ox" id="2eG-Os-lZt"/>
+                <outlet property="subtitleLabel" destination="5C8-or-7MI" id="Tpz-kX-BYE"/>
+                <outlet property="titleLabel" destination="tMe-q0-apN" id="Hg1-rt-mih"/>
+            </connections>
+            <point key="canvasLocation" x="105.34351145038167" y="38.380281690140848"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <systemColor name="systemGrayColor">
+            <color red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
